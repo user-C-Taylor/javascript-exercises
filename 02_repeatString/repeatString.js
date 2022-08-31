@@ -2,9 +2,7 @@ const repeatString = function(string, n) {
   let repeated = '';
   if(n < 0){
     repeated = 'ERROR';
-  } else if(string === ''){
-    // Return below with repeated = ''.
-  }else {
+  } else {
     for(let i = 0; i < n; i++){
       repeated += string;
     }
